@@ -1,0 +1,706 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+/* NAGŁÓWEK */
+
+header{
+    text-align: center;
+    padding-top: 68px;
+    margin-bottom: 58px;
+}
+
+header h1{
+    font-size: 36px;
+    line-height: 34px;
+    margin: 0 0 32px 0;
+    font-family: 'Hind', sans-serif;
+    color: #2f2f2f;
+}
+
+header h2{
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    margin: 0;
+    color: #565e66;
+}
+
+/* OBSZARY KOMPETENCJI */
+
+#areas{
+    margin-bottom: 207px;
+}
+
+#areas .elipse{
+    background: url(../images/elipsa.png) no-repeat center;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 743px;
+}
+
+#areas .elipse .gear{
+    background: url(../images/main_image.png) no-repeat center;
+    min-height: 743px;
+    position: relative;
+}
+
+#areas .elipse .gear .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+#areas .elipse .gear .row .iconrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+#areas .elipse .gear .row .left, #areas .elipse .gear .row .right{
+    font-size: 13px;
+    color: #2f2f2f;
+    box-sizing: border-box;
+}
+
+#areas .elipse .gear .row .right{
+    padding: 0 0 0 20px;
+}
+
+#areas .elipse .gear .row .left{
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+#areas .elipse .gear .row .image{
+    width: 74.5px;
+    height: 74.5px;
+    border-radius: 50px;
+    border: 3px solid #d4dbe0;
+}
+
+
+#areas .elipse .gear .row1 .iconrow{
+    width: 32%;
+}
+
+#areas .elipse .gear .row1{
+    padding-top: 70px;
+}
+
+#areas .elipse .gear .row1 .left, #areas .elipse .gear .row1 .right{
+    width: 34%;
+}
+
+#areas .elipse .gear .row #marketing{
+    background: #f4f7f9 url(../images/marketing.png) no-repeat center;
+}
+
+#areas .elipse .gear .row #grants{
+    background: #f4f7f9 url(../images/grants.png) no-repeat center;
+}
+
+
+#areas .elipse .gear .row2 .iconrow{
+    width: 51%;
+}
+
+#areas .elipse .gear .row2{
+    padding-top: 35px;
+}
+
+#areas .elipse .gear .row2 .left, #areas .elipse .gear .row2 .right{
+    width: 24.5%;
+}
+
+#areas .elipse .gear .row #insurance{
+    background: #f4f7f9 url(../images/insurance.png) no-repeat center;
+}
+
+#areas .elipse .gear .row #taxes{
+    background: #f4f7f9 url(../images/taxes.png) no-repeat center;
+}
+
+
+#areas .elipse .gear .row3 .iconrow{
+    width: 57%;
+}
+
+#areas .elipse .gear .row3{
+    padding-top: 65px;
+}
+
+#areas .elipse .gear .row3 .left, #areas .elipse .gear .row3 .right{
+    width: 21.5%;
+}
+
+#areas .elipse .gear .row #crowdfunding{
+    background: #f4f7f9 url(../images/crowdfunding.png) no-repeat center;
+}
+
+#areas .elipse .gear .row #law{
+    background: #f4f7f9 url(../images/law.png) no-repeat center;
+}
+
+
+#areas .elipse .gear .row4 .iconrow{
+    width: 51%;
+}
+
+#areas .elipse .gear .row4{
+    padding-top: 75px;
+}
+
+#areas .elipse .gear .row4 .left, #areas .elipse .gear .row4 .right{
+    width: 24.5%;
+}
+
+#areas .elipse .gear .row #productivity{
+    background: #f4f7f9 url(../images/productivity.png) no-repeat center;
+}
+
+#areas .elipse .gear .row #trade{
+    background: #f4f7f9 url(../images/trade.png) no-repeat center;
+}
+
+
+#areas .elipse .gear .row5 .iconrow{
+    width: 32%;
+}
+
+#areas .elipse .gear .row5{
+    padding-top: 30px;
+}
+
+#areas .elipse .gear .row5 .left, #areas .elipse .gear .row5 .right{
+    width: 34%;
+}
+
+#areas .elipse .gear .row #property{
+    background: #f4f7f9 url(../images/property.png) no-repeat center;
+}
+
+#areas .elipse .gear .row #investors{
+    background: #f4f7f9 url(../images/investors.png) no-repeat center;
+}
+
+
+#areas .elipse .gear .row6{
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#areas .elipse .gear .row #estates{
+    background: #f4f7f9 url(../images/estates.png) no-repeat center;
+}
+
+#areas .elipse .gear .row6 .right{
+    padding: 10px 0 0 0;
+}
+
+
+#areas .elipse .gear .row0{
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#areas .elipse .gear .row #projects{
+    background: #f4f7f9 url(../images/projects.png) no-repeat center;
+}
+
+#areas .elipse .gear .row0 .left{
+    padding: 0 0 10px 0;
+}
+
+
+.mobilelist{
+    display: none;
+    text-align: center;
+}
+
+.mobilelist ul{
+    margin: 30px 0;
+    padding: 0;
+}
+
+.mobilelist ul li{
+    list-style-type: none;
+    padding: 3px 0;
+}
+
+
+/* FORMULARZ */
+
+#contactus{
+    padding: 64px 0 56px;
+    background: url(../images/prostokat_58.png) no-repeat center;
+    text-align: center;
+}
+
+#contactus h2{
+    color: #fff;
+    font-size: 36px;
+    line-height: 34px;
+    margin: 0 0 29px 0;
+    font-family: 'Hind', sans-serif;
+}
+
+#contactus h3{
+    color: #fff;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 400;
+    margin: 0 0 45px 0;
+}
+
+#contactus h3 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#contactus form{
+    max-width: 953px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contactus form .input{
+    width: 33%;
+    max-width: 308px;
+    padding: 15px 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 16px;
+}
+
+#contactus form .input::placeholder{
+    color: #565e66;
+}
+
+#contactus form .input:-ms-input-placeholder{
+    color: #565e66;
+}
+
+#contactus form .selectwrap{
+    width: 33%;
+    max-width: 308px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+#contactus form .selectwrap:after{
+    content: url(../images/arrow.png);
+    position: absolute;
+    right: 18px;
+    top: 15px;
+}
+
+#contactus form select{
+    height: 51px;
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 0 13px;
+    outline: none; 
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    font-size: 16px;
+    color: #565e66;
+    background-color: #fff;
+    -o-appearance: none;
+   -ms-appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+#contactus form textarea{
+    width: 100%;
+    padding: 21px 14px;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    max-height: 126px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#contactus form textarea::placeholder{
+    color: #565e66;
+}
+
+#contactus form textarea:-ms-input-placeholder{
+    color: #565e66;
+}
+
+#contactus form .terms{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#contactus form .terms label{
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contactus form .terms input{
+    outline: none;
+    height: 17px;
+    width: 17px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#contactus form .terms a{
+    text-decoration: none;
+    color: #35a8e0;
+}
+
+#contactus form .send{
+    width: 100%;
+    text-align: center;
+}
+
+#contactus form .send button{
+    font-size: 14px;
+    color: #fff;
+    background: #35a8e0;
+    border: none;
+    padding: 17px 56px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* RWD */
+
+@media all and (max-width: 1200px){
+
+    #contactus{
+        background-size: cover;
+    }
+
+    #contactus form .input{
+        width: 49%;
+        max-width: initial;
+    }
+
+    #contactus form .selectwrap{
+        width: 49%;
+        max-width: initial;
+    }
+
+    #areas .elipse{
+        background-size: 400px 400px;
+        max-width: 900px;
+        min-height: 500px;
+    }
+
+    #areas .elipse .gear{
+        background-size: 250px 250px;
+        min-height: 500px;
+    }
+
+    #areas .elipse .gear .row .image{
+        width: 40px;
+        height: 40px;
+        background-size: 20px auto !important;
+    }
+
+    #areas .elipse .gear .row1{
+        padding-top: 53px;
+    }
+
+    #areas .elipse .gear .row1 .iconrow{
+        width: 27%;
+    }
+
+    #areas .elipse .gear .row2 .iconrow{
+        width: 44%;
+    }
+
+    #areas .elipse .gear .row3{
+        padding-top: 49px;
+    }
+
+    #areas .elipse .gear .row3 .iconrow{
+        width: 49%;
+    }
+
+    #areas .elipse .gear .row4{
+        padding-top: 54px;
+    }
+
+    #areas .elipse .gear .row4 .iconrow{
+        width: 44%;
+    }
+
+    #areas .elipse .gear .row5{
+        padding-top: 31px;
+    }
+
+    #areas .elipse .gear .row5 .iconrow{
+        width: 27%;
+    }
+
+}
+
+
+@media all and (max-width: 979px){
+
+    #contactus form{
+        max-width: 700px;
+    }
+
+    #areas{
+        margin-bottom: 100px;
+    }
+
+    #areas .elipse{
+        background-size: 350px 350px;
+        max-width: 700px;
+        min-height: 450px;
+    }
+
+    #areas .elipse .gear{
+        min-height: 450px;
+    }
+
+    #areas .elipse .gear .row .left, #areas .elipse .gear .row .right{
+        font-size: 11px;
+    }
+
+    #areas .elipse .gear .row1 .iconrow{
+        width: 32%;
+    }
+
+    #areas .elipse .gear .row2 .iconrow{
+        width: 51%;
+    }
+
+    #areas .elipse .gear .row2{
+        padding-top: 18px;
+    }
+
+    #areas .elipse .gear .row3 .iconrow{
+        width: 57%;
+    }
+
+    #areas .elipse .gear .row3{
+        padding-top: 40px;
+    }
+
+    #areas .elipse .gear .row4 .iconrow{
+        width: 51%;
+    }
+
+    #areas .elipse .gear .row4{
+        padding-top: 44px;
+    }
+
+    #areas .elipse .gear .row5 .iconrow{
+        width: 32%;
+    }
+
+    #areas .elipse .gear .row5{
+        padding-top: 21px;
+    }
+
+}
+
+
+@media all and (max-width: 767px){
+
+    header h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    #contactus h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    #contactus h3{
+        font-size: 16px;
+    }
+
+    #contactus form{
+        max-width: 450px;
+    }
+
+    #contactus form .input{
+        width: 100%;
+    }
+
+    #contactus form .selectwrap{
+        width: 100%;
+    }
+
+    #areas .elipse{
+        max-width: 450px;
+        min-height: 405px;
+    }
+
+    #areas .elipse .gear{
+        min-height: 405px;
+    }
+
+    #areas .elipse .gear .row .left, #areas .elipse .gear .row .right{
+        display: none;
+    }
+
+    #areas .elipse .gear .row1 .iconrow{
+        width: 48%;
+    }
+
+    #areas .elipse .gear .row1{
+        padding-top: 33px;
+    }
+
+    #areas .elipse .gear .row2 .iconrow{
+        width: 77%;
+    }
+
+    #areas .elipse .gear .row3 .iconrow{
+        width: 88%;
+    }
+
+    #areas .elipse .gear .row3{
+        padding-top: 37px;
+    }
+
+    #areas .elipse .gear .row4 .iconrow{
+        width: 77%;
+    }
+
+    #areas .elipse .gear .row5 .iconrow{
+        width: 48%;
+    }
+
+
+    .mobilelist{
+        display: block;
+    }
+
+}
+
+
+@media all and (max-width: 480px){
+
+    #contactus form{
+        max-width: 300px;
+    }
+
+    #areas .elipse .gear{
+        background-size: 180px;
+        min-height: 380px;
+    }
+
+    #areas .elipse{
+        background-size: 260px;
+        max-width: 300px;
+        min-height: 380px;
+    }
+
+    #areas .elipse .gear .row0{
+        top: 33px;
+    }
+
+    #areas .elipse .gear .row1{
+        padding-top: 54px;
+    }
+
+    #areas .elipse .gear .row1 .iconrow{
+        width: 59%;
+    }
+
+    #areas .elipse .gear .row2{
+        padding-top: 0;
+    }
+
+    #areas .elipse .gear .row2 .iconrow{
+        width: 91%;
+    }
+
+    #areas .elipse .gear .row3 .iconrow{
+        width: 100%;
+    }
+
+    #areas .elipse .gear .row3{
+        padding-top: 21px;
+    }
+
+    #areas .elipse .gear .row4{
+        padding-top: 23px;
+    }
+
+    #areas .elipse .gear .row4 .iconrow{
+        width: 91%;
+    }
+
+    #areas .elipse .gear .row5{
+        padding-top: 0;
+    }
+
+    #areas .elipse .gear .row5 .iconrow{
+        width: 61%;
+    }
+
+    #areas .elipse .gear .row6{
+        bottom: 33px;
+    }
+
+}

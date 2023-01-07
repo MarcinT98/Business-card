@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/main.js"></script>
+
+        <title>JustIdea zadanie rekrutacyjne</title>
+
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>Obszary naszych kompetencji</h1>
+            <h2>Pomagamy uczyć się na błędach innych. Wspieramy i rekomendujemy wartościowe rozwiązania biznesowe.</h2>
+        </header>
+
+        <section>
+            <div id="areas">
+                <div class="elipse">
+                    <div class="gear">
+                        <div class="row row0">
+                            <div class="left">Zarządzanie projektami</div>
+                            <div class="iconrow">
+                                <div class="image" id="projects"></div>
+                            </div>         
+                        </div>
+
+                        <div class="row row1">
+                            <div class="left">Marketing 360</div>
+                            <div class="iconrow">
+                                <div class="image" id="marketing"></div>
+                                <div class="image" id="grants"></div>
+                            </div>         
+                            <div class="right">Dotacje i granty międzynarodowe</div>
+                        </div>
+
+                        <div class="row row2">
+                            <div class="left">Ubezpieczenia międzynarodowe</div>
+                            <div class="iconrow">
+                                <div class="image" id="insurance"></div>
+                                <div class="image" id="taxes"></div>
+                            </div>         
+                            <div class="right">Międzynarodowa księgowość, kadry i podatki</div>
+                        </div>
+
+                        <div class="row row3">
+                            <div class="left">Crowdfunding</div>
+                            <div class="iconrow">
+                                <div class="image" id="crowdfunding"></div>
+                                <div class="image" id="law"></div>
+                            </div>         
+                            <div class="right">Prawo międzynarodowe</div>
+                        </div>
+
+                        <div class="row row4">
+                            <div class="left">Podnoszenie produktywności</div>
+                            <div class="iconrow">
+                                <div class="image" id="productivity"></div>
+                                <div class="image" id="trade"></div>
+                            </div>         
+                            <div class="right">Finansowanie handlu międzynarodowego</div>
+                        </div>
+
+                        <div class="row row5">
+                            <div class="left">Komercjalizacja własnośći intelektualnej</div>
+                            <div class="iconrow">
+                                <div class="image" id="property"></div>
+                                <div class="image" id="investors"></div>
+                            </div>         
+                            <div class="right">Pozyskiwanie inwestorów (M&A)</div>
+                        </div>
+
+                        <div class="row row6">
+                            <div class="iconrow">
+                                <div class="image" id="estates"></div>
+                            </div>         
+                            <div class="right">Nieruchomości</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobilelist">
+                    <ul>
+                        <li>Zarządzanie projektami</li>
+                        <li>Marketing 360</li>
+                        <li>Dotacje i granty międzynarodowe</li>
+                        <li>Ubezpieczenia międzynarodowe</li>
+                        <li>Międzynarodowa księgowość, kadry i podatki</li>
+                        <li>Crowdfunding</li>
+                        <li>Prawo międzynarodowe</li>
+                        <li>Podnoszenie produktywności</li>
+                        <li>Finansowanie handlu międzynarodowego</li>
+                        <li>Komercjalizacja własnośći intelektualnej</li>
+                        <li>Pozyskiwanie inwestorów (M&A)</li>
+                        <li>Nieruchomości</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div id="contactus">
+                <h2>Skontaktuj się z nami</h2>
+                <h3>Zadzwoń <a href="tel:+48535015835">+48 535 015 835</a> lub wypełnij formularz.</h3>
+
+                <form action="#" method="GET">
+                    <input class="input" type="text" name="namesurname" placeholder="Imię i nazwisko" autocomplete="off"/>
+                    <input class="input" type="text" name="phone" placeholder="Telefon" autocomplete="off"/>
+                    <input class="input" type="email" name="email" placeholder="Email" autocomplete="off"/>
+                    <input class="input" type="text" name="company" placeholder="Firma" autocomplete="off"/>
+                    <div class="selectwrap">
+                    <select name="employees" id="employees" autocomplete="off">
+                        <option value="" hidden selected disabled>Ilość pracowników</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    </div>
+                    <div class="selectwrap">
+                    <select name="revenue" id="revenue" autocomplete="off">
+                        <option value="" hidden selected disabled>Roczny dochód firmy</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    </div>
+                    <textarea name="message" id="message" cols="30" rows="5" autocomplete="off" placeholder="Wiadomość"></textarea>
+                    <div class="terms">
+                        <input type="checkbox" id="agree" name="agree" value="consent" autocomplete="off">
+                        <label for="agree">Zapozanałem(-łam) się z <a href="#">Polityką prywatności</a> oraz z <a href="#">Zastrzeżeniami prawnymi.</a></label>
+                    </div>
+                    <div class="send">
+                        <button type="submit">Wyślij</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+    </body>
+
+</html>
